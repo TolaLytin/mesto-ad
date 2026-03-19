@@ -7,6 +7,45 @@
     line-height: 17px;
 }
 
+.popup__info-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 20px 0 10px;
+  color: #000;
+}
+
+.popup__info-title:first-of-type {
+  margin-top: 0;
+}
+
+.popup__info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.popup__info-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.popup__info-term {
+  font-weight: 400;
+  color: #666;
+}
+
+.popup__info-definition {
+  font-weight: 500;
+  color: #000;
+}
+
+.popup__info-empty {
+  text-align: center;
+  color: #999;
+  padding: 20px;
+}
 
 @media screen and (max-width: 568px) {
     .popup__info {
