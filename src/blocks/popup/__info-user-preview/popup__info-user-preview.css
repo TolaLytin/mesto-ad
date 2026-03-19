@@ -1,0 +1,40 @@
+.popup__info-user-preview {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.popup__info-user-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.popup__info-user-info {
+  flex: 1;
+}
+
+.popup__info-user-name {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 5px;
+  color: #000;
+}
+
+.popup__info-user-about {
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 5px;
+}
+
+.popup__info-user-stats {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2f80ed;
+  margin: 0;
+}
